@@ -29,6 +29,18 @@
     "reporters": [
       "default",
       [
+        "./node_modules/jest-html-reporter",
+        {
+          "pageTitle": "Test Solution",
+          "outputPath": "test-results.html",
+          "includeFailureMsg": true,
+          "includeConsoleLog": true
+        }
+      ]
+    ],
+    "reportersStare": [
+      "default",
+      [
         "jest-stare",
         {
           "resultDir": "results/jest-stare",
@@ -39,20 +51,6 @@
           "coverageLink": "../../coverage/lcov-report/index.html",
           "jestStareConfigJson": "jest-stare.json",
           "jestGlobalConfigJson": "globalStuff.json"
-        }
-      ]
-    ]
-  },
-  "jestW10": {
-    "reporters": [
-      "default",
-      [
-        "./node_modules/jest-html-reporter",
-        {
-          "pageTitle": "Test Solution",
-          "outputPath": "test-results.html",
-          "includeFailureMsg": true,
-          "includeConsoleLog": true
         }
       ]
     ]
