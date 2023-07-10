@@ -5,26 +5,13 @@
   "type": "module",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watchAll --verbose=false"
+    "test:watch": "jest --watchAll --verbose=true"
   },
   "devDependencies": {
-    "jest": "^27.0.4",
-    "jest-html-reporter": "^3.3.0",
-    "jest-junit": "^12.0.0"
-  },
-  "jest": {
-    "reporters": [
-      "default",
-      [
-        "./node_modules/jest-html-reporter",
-        {
-          "pageTitle": "Test Solution",
-          "outputPath": "test-results.html",
-          "includeFailureMsg": true,
-          "includeConsoleLog": true
-        }
-      ]
-    ]
+    "jest": "^27.5.1",
+    "jest-html-reporter": "^3.10.1",
+    "jest-junit": "^12.3.0",
+    "jest-stare": "^2.5.0"
   },
   "jest-junit": {
     "suiteNameTemplate": "{filepath}",
@@ -37,5 +24,37 @@
   },
   "dependencies": {
     "browserify": "^17.0.0"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      [
+        "jest-stare",
+        {
+          "resultDir": "results/jest-stare",
+          "reportTitle": "jest-stare!",
+          "additionalResultsProcessors": [
+            "jest-junit"
+          ],
+          "coverageLink": "../../coverage/lcov-report/index.html",
+          "jestStareConfigJson": "jest-stare.json",
+          "jestGlobalConfigJson": "globalStuff.json"
+        }
+      ]
+    ]
+  },
+  "jestW10": {
+    "reporters": [
+      "default",
+      [
+        "./node_modules/jest-html-reporter",
+        {
+          "pageTitle": "Test Solution",
+          "outputPath": "test-results.html",
+          "includeFailureMsg": true,
+          "includeConsoleLog": true
+        }
+      ]
+    ]
   }
 }
