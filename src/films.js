@@ -33,10 +33,10 @@ function moviesAverageOfDirector(array, director) {
 function orderAlphabetically(array) {
     const compareFn = (a, b) => {
         if (a.title < b.title)
-          return -1;
+            return -1;
         
         if (a.title > b.title)
-          return 1;
+            return 1;
         
         // a must be equal to b
         return 0;
@@ -48,8 +48,29 @@ function orderAlphabetically(array) {
 }
 
 // Exercise 5: Order by year, ascending
-function orderByYear() {
+function orderByYear(array) {
+    const compareFn = (a, b) => {
+        if (a.year < b.year)
+            return -1;
 
+        if (a.year > b.year)
+            return 1;
+
+        // The year of a is equal than the year of b
+
+        if (a.title < b.title)
+            return -1;
+        
+        if (a.title > b.title)
+            return 1;
+        
+        // a must be equal to b
+        return 0;
+    }
+    const RES = array.concat().sort(compareFn);
+    console.log("EXERCICE 5 ->", RES);
+
+    return RES    
 }
 
 // Exercise 6: Calculate the average of the movies in a category
