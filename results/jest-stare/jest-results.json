@@ -1,8 +1,8 @@
 {
   "numFailedTestSuites": 1,
-  "numFailedTests": 12,
+  "numFailedTests": 7,
   "numPassedTestSuites": 0,
-  "numPassedTests": 29,
+  "numPassedTests": 34,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
@@ -26,21 +26,21 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1689021921596,
+  "startTime": 1689025080945,
   "success": false,
   "testResults": [
     {
       "leaks": false,
-      "numFailingTests": 12,
-      "numPassingTests": 29,
+      "numFailingTests": 7,
+      "numPassingTests": 34,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1689021922410,
-        "runtime": 748,
+        "end": 1689025082288,
+        "runtime": 1271,
         "slow": false,
-        "start": 1689021921662
+        "start": 1689025081017
       },
       "skipped": false,
       "snapshot": {
@@ -72,7 +72,7 @@
           "ancestorTitles": [
             "Function \"getAllDirectors\""
           ],
-          "duration": 51,
+          "duration": 48,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"getAllDirectors\" should return an array",
@@ -86,7 +86,7 @@
           "ancestorTitles": [
             "Function \"getAllDirectors\""
           ],
-          "duration": 4,
+          "duration": 6,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"getAllDirectors\" should return a new array, not update the original one",
@@ -100,7 +100,7 @@
           "ancestorTitles": [
             "Function \"getAllDirectors\""
           ],
-          "duration": 3,
+          "duration": 5,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"getAllDirectors\" should return a new array with the same length as the original one",
@@ -114,7 +114,7 @@
           "ancestorTitles": [
             "Function \"getMoviesFromDirector\""
           ],
-          "duration": 0,
+          "duration": 1,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"getMoviesFromDirector\" should be declared",
@@ -142,7 +142,7 @@
           "ancestorTitles": [
             "Function \"getMoviesFromDirector\""
           ],
-          "duration": 4,
+          "duration": 3,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"getMoviesFromDirector\" should return a new array, not update the original one",
@@ -156,7 +156,7 @@
           "ancestorTitles": [
             "Function \"getMoviesFromDirector\""
           ],
-          "duration": 3,
+          "duration": 5,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"getMoviesFromDirector\" should return a new array with the movies from director",
@@ -170,7 +170,7 @@
           "ancestorTitles": [
             "Function \"moviesAverageOfDirector\""
           ],
-          "duration": 0,
+          "duration": 1,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"moviesAverageOfDirector\" should be declared",
@@ -184,7 +184,7 @@
           "ancestorTitles": [
             "Function \"moviesAverageOfDirector\""
           ],
-          "duration": 7,
+          "duration": 49,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"moviesAverageOfDirector\" should return a number",
@@ -198,7 +198,7 @@
           "ancestorTitles": [
             "Function \"moviesAverageOfDirector\""
           ],
-          "duration": 4,
+          "duration": 16,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"moviesAverageOfDirector\"  should return the average score of movies selecting only the director films. With 2 decimals! ",
@@ -226,7 +226,7 @@
           "ancestorTitles": [
             "Function \"orderAlphabetically\""
           ],
-          "duration": 3,
+          "duration": 4,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"orderAlphabetically\" should return an array",
@@ -240,7 +240,7 @@
           "ancestorTitles": [
             "Function \"orderAlphabetically\""
           ],
-          "duration": 5,
+          "duration": 4,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"orderAlphabetically\" should not mutate the original array",
@@ -254,7 +254,7 @@
           "ancestorTitles": [
             "Function \"orderAlphabetically\""
           ],
-          "duration": 4,
+          "duration": 3,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"orderAlphabetically\" should only return the title of the movies, each value should be a string",
@@ -268,7 +268,7 @@
           "ancestorTitles": [
             "Function \"orderAlphabetically\""
           ],
-          "duration": 2,
+          "duration": 4,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"orderAlphabetically\" should return all of items when the array passed has fewer than 20 items",
@@ -282,7 +282,7 @@
           "ancestorTitles": [
             "Function \"orderAlphabetically\""
           ],
-          "duration": 3,
+          "duration": 4,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"orderAlphabetically\" should order them alphabetically.",
@@ -296,7 +296,7 @@
           "ancestorTitles": [
             "Function \"orderAlphabetically\""
           ],
-          "duration": 13,
+          "duration": 3,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"orderAlphabetically\" should return the top 20 after ordering them alphabetically.",
@@ -310,7 +310,7 @@
           "ancestorTitles": [
             "Function \"orderByYear\""
           ],
-          "duration": 1,
+          "duration": 0,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"orderByYear\" should be declared",
@@ -338,7 +338,7 @@
           "ancestorTitles": [
             "Function \"orderByYear\""
           ],
-          "duration": 2,
+          "duration": 3,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"orderByYear\" should return a new array",
@@ -352,7 +352,7 @@
           "ancestorTitles": [
             "Function \"orderByYear\""
           ],
-          "duration": 2,
+          "duration": 3,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"orderByYear\" should return the element in a single element array",
@@ -366,7 +366,7 @@
           "ancestorTitles": [
             "Function \"orderByYear\""
           ],
-          "duration": 3,
+          "duration": 2,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"orderByYear\" should return the new array in ascending order",
@@ -408,126 +408,70 @@
           "ancestorTitles": [
             "Function \"moviesAverageByCategory\""
           ],
-          "duration": 7,
-          "failureDetails": [
-            {
-              "matcherResult": {
-                "actual": "undefined",
-                "expected": "number",
-                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"number\"\u001b[39m\nReceived: \u001b[31m\"undefined\"\u001b[39m",
-                "name": "toBe",
-                "pass": false
-              }
-            }
-          ],
-          "failureMessages": [
-            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"number\"\u001b[39m\nReceived: \u001b[31m\"undefined\"\u001b[39m\n    at Object.<anonymous> (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/tests/films.spec.js:296:61)\n    at Promise.then.completed (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:218:40)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at _runTest (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:66:9)\n    at _runTestsForDescribeBlock (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:60:9)\n    at run (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:25:3)"
-          ],
+          "duration": 371,
+          "failureDetails": [],
+          "failureMessages": [],
           "fullName": "Function \"moviesAverageByCategory\" should return a number",
           "invocations": 1,
           "location": null,
           "numPassingAsserts": 0,
-          "status": "failed",
+          "status": "passed",
           "title": "should return a number"
         },
         {
           "ancestorTitles": [
             "Function \"moviesAverageByCategory\""
           ],
-          "duration": 0,
-          "failureDetails": [
-            {
-              "matcherResult": {
-                "expected": 7,
-                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m7\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-                "name": "toBe",
-                "pass": false
-              }
-            }
-          ],
-          "failureMessages": [
-            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m7\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Object.<anonymous> (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/tests/films.spec.js:308:15)\n    at Promise.then.completed (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:218:40)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at _runTest (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:66:9)\n    at _runTestsForDescribeBlock (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:60:9)\n    at run (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:25:3)"
-          ],
+          "duration": 6,
+          "failureDetails": [],
+          "failureMessages": [],
           "fullName": "Function \"moviesAverageByCategory\"  should return the average score of 2 movies with score 7 each",
           "invocations": 1,
           "location": null,
           "numPassingAsserts": 0,
-          "status": "failed",
+          "status": "passed",
           "title": " should return the average score of 2 movies with score 7 each"
         },
         {
           "ancestorTitles": [
             "Function \"moviesAverageByCategory\""
           ],
-          "duration": 2,
-          "failureDetails": [
-            {
-              "matcherResult": {
-                "expected": 6.5,
-                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m6.5\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-                "name": "toBe",
-                "pass": false
-              }
-            }
-          ],
-          "failureMessages": [
-            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m6.5\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Object.<anonymous> (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/tests/films.spec.js:320:15)\n    at Promise.then.completed (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:218:40)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at _runTest (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:66:9)\n    at _runTestsForDescribeBlock (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:60:9)\n    at run (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:25:3)"
-          ],
+          "duration": 12,
+          "failureDetails": [],
+          "failureMessages": [],
           "fullName": "Function \"moviesAverageByCategory\" should be rounded to 2 decimals places",
           "invocations": 1,
           "location": null,
           "numPassingAsserts": 0,
-          "status": "failed",
+          "status": "passed",
           "title": "should be rounded to 2 decimals places"
         },
         {
           "ancestorTitles": [
             "Function \"moviesAverageByCategory\""
           ],
-          "duration": 1,
-          "failureDetails": [
-            {
-              "matcherResult": {
-                "expected": 10,
-                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m10\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-                "name": "toBe",
-                "pass": false
-              }
-            }
-          ],
-          "failureMessages": [
-            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m10\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Object.<anonymous> (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/tests/films.spec.js:335:16)\n    at Promise.then.completed (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:218:40)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at _runTest (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:66:9)\n    at _runTestsForDescribeBlock (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:60:9)\n    at run (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:25:3)"
-          ],
+          "duration": 11,
+          "failureDetails": [],
+          "failureMessages": [],
           "fullName": "Function \"moviesAverageByCategory\" should not take into consideration films of other category",
           "invocations": 1,
           "location": null,
           "numPassingAsserts": 0,
-          "status": "failed",
+          "status": "passed",
           "title": "should not take into consideration films of other category"
         },
         {
           "ancestorTitles": [
             "Function \"moviesAverageByCategory\""
           ],
-          "duration": 1,
-          "failureDetails": [
-            {
-              "matcherResult": {
-                "expected": 5,
-                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m5\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
-                "name": "toBe",
-                "pass": false
-              }
-            }
-          ],
-          "failureMessages": [
-            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m5\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Object.<anonymous> (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/tests/films.spec.js:352:16)\n    at Promise.then.completed (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:218:40)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at _runTest (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:66:9)\n    at _runTestsForDescribeBlock (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:60:9)\n    at run (/home/manuel/Documentos/vscode/_Js/ita-angular-jses6/node_modules/jest-circus/build/run.js:25:3)"
-          ],
+          "duration": 9,
+          "failureDetails": [],
+          "failureMessages": [],
           "fullName": "Function \"moviesAverageByCategory\" should return average even if one of the movies does not have score",
           "invocations": 1,
           "location": null,
           "numPassingAsserts": 0,
-          "status": "failed",
+          "status": "passed",
           "title": "should return average even if one of the movies does not have score"
         },
         {
@@ -548,7 +492,7 @@
           "ancestorTitles": [
             "Function \"hoursToMinutes\""
           ],
-          "duration": 1,
+          "duration": 3,
           "failureDetails": [
             {
               "matcherResult": {
@@ -574,7 +518,7 @@
           "ancestorTitles": [
             "Function \"hoursToMinutes\""
           ],
-          "duration": 0,
+          "duration": 1,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"hoursToMinutes\" should return a new array, not update the original one",
@@ -606,7 +550,7 @@
           "ancestorTitles": [
             "Function \"hoursToMinutes\""
           ],
-          "duration": 0,
+          "duration": 1,
           "failureDetails": [
             {}
           ],
@@ -700,7 +644,7 @@
           "ancestorTitles": [
             "Function \"bestFilmOfYear\""
           ],
-          "duration": 0,
+          "duration": 1,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Function \"bestFilmOfYear\" should return a new array, not update the original one",
@@ -714,7 +658,7 @@
           "ancestorTitles": [
             "Function \"bestFilmOfYear\""
           ],
-          "duration": 1,
+          "duration": 2,
           "failureDetails": [
             {
               "matcherResult": {
@@ -748,7 +692,7 @@
           "title": "should return the best film of a year, searching in an array"
         }
       ],
-      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"moviesAverageByCategory\" › should return a number\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\"number\"\u001b[39m\n    Received: \u001b[31m\"undefined\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 294 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 295 |\u001b[39m   it(\u001b[32m'should return a number'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 296 |\u001b[39m     expect(\u001b[36mtypeof\u001b[39m moviesAverageByCategory(movies\u001b[33m,\u001b[39m \u001b[32m'Drama'\u001b[39m))\u001b[33m.\u001b[39mtoBe(\u001b[32m'number'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 297 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 298 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 299 |\u001b[39m   it(\u001b[32m' should return the average score of 2 movies with score 7 each'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:296:61)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"moviesAverageByCategory\" ›  should return the average score of 2 movies with score 7 each\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m7\u001b[39m\n    Received: \u001b[31mundefined\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 306 |\u001b[39m       }\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 307 |\u001b[39m     ]\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 308 |\u001b[39m     \u001b[32m'Drama'\u001b[39m))\u001b[33m.\u001b[39mtoBe(\u001b[35m7\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m               \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 309 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 310 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 311 |\u001b[39m   it(\u001b[32m'should be rounded to 2 decimals places'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:308:15)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"moviesAverageByCategory\" › should be rounded to 2 decimals places\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m6.5\u001b[39m\n    Received: \u001b[31mundefined\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 318 |\u001b[39m       }\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 319 |\u001b[39m     ]\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 320 |\u001b[39m     \u001b[32m'Drama'\u001b[39m))\u001b[33m.\u001b[39mtoBe(\u001b[35m6.50\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m               \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 321 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 322 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 323 |\u001b[39m   it(\u001b[32m'should not take into consideration films of other category'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:320:15)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"moviesAverageByCategory\" › should not take into consideration films of other category\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m10\u001b[39m\n    Received: \u001b[31mundefined\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 333 |\u001b[39m       }\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 334 |\u001b[39m     ]\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 335 |\u001b[39m     \u001b[32m'Action'\u001b[39m))\u001b[33m.\u001b[39mtoBe(\u001b[35m10\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 336 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 337 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 338 |\u001b[39m   \u001b[90m/* Bug fixing, to review \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:335:16)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"moviesAverageByCategory\" › should return average even if one of the movies does not have score\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m5\u001b[39m\n    Received: \u001b[31mundefined\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 350 |\u001b[39m       }\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 351 |\u001b[39m     ]\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 352 |\u001b[39m     \u001b[32m'Action'\u001b[39m))\u001b[33m.\u001b[39mtoBe(\u001b[35m5\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 353 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 354 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 355 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:352:16)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"hoursToMinutes\" › should return an array\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32mtrue\u001b[39m\n    Received: \u001b[31mfalse\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 362 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 363 |\u001b[39m   it(\u001b[32m'should return an array'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 364 |\u001b[39m     expect(hoursToMinutes(movies) \u001b[36minstanceof\u001b[39m \u001b[33mArray\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 365 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 366 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 367 |\u001b[39m   it(\u001b[32m'should return a new array, not update the original one'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:364:53)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"hoursToMinutes\" › should return an array of movies with duration as a number\u001b[39m\u001b[22m\n\n    TypeError: Cannot read property '0' of undefined\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 370 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 371 |\u001b[39m   it(\u001b[32m'should return an array of movies with duration as a number'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 372 |\u001b[39m     expect(\u001b[36mtypeof\u001b[39m hoursToMinutes(movies)[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mduration)\u001b[33m.\u001b[39mtoBe(\u001b[32m'number'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 373 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 374 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 375 |\u001b[39m   it(\u001b[32m'should return an array of movies with the correct duration for a 31 minute movie'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:372:41)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"hoursToMinutes\" › should return an array of movies with the correct duration for a 31 minute movie\u001b[39m\u001b[22m\n\n    TypeError: Cannot read property '0' of undefined\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 375 |\u001b[39m   it(\u001b[32m'should return an array of movies with the correct duration for a 31 minute movie'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 376 |\u001b[39m     \u001b[36mconst\u001b[39m movieTry \u001b[33m=\u001b[39m [{ duration\u001b[33m:\u001b[39m \u001b[32m'0h 31min'\u001b[39m }]\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 377 |\u001b[39m     expect(hoursToMinutes(movieTry)[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mduration)\u001b[33m.\u001b[39mtoBe(\u001b[35m31\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 378 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 379 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 380 |\u001b[39m   it(\u001b[32m'should return an array of movies with the correct duration for a 341 minute movie'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:377:36)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"hoursToMinutes\" › should return an array of movies with the correct duration for a 341 minute movie\u001b[39m\u001b[22m\n\n    TypeError: Cannot read property '0' of undefined\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 380 |\u001b[39m   it(\u001b[32m'should return an array of movies with the correct duration for a 341 minute movie'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 381 |\u001b[39m     \u001b[36mconst\u001b[39m movieTry \u001b[33m=\u001b[39m [{ duration\u001b[33m:\u001b[39m \u001b[32m'5h 41min'\u001b[39m }]\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 382 |\u001b[39m     expect(hoursToMinutes(movieTry)[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mduration)\u001b[33m.\u001b[39mtoBe(\u001b[35m341\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 383 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 384 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 385 |\u001b[39m   it(\u001b[32m'should return an array of movies with the correct duration for a 2 hour movie'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:382:36)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"hoursToMinutes\" › should return an array of movies with the correct duration for a 2 hour movie\u001b[39m\u001b[22m\n\n    TypeError: Cannot read property '0' of undefined\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 385 |\u001b[39m   it(\u001b[32m'should return an array of movies with the correct duration for a 2 hour movie'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 386 |\u001b[39m     \u001b[36mconst\u001b[39m movieTry \u001b[33m=\u001b[39m [{ duration\u001b[33m:\u001b[39m \u001b[32m'2h'\u001b[39m }]\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 387 |\u001b[39m     expect(hoursToMinutes(movieTry)[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mduration)\u001b[33m.\u001b[39mtoBe(\u001b[35m120\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 388 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 389 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 390 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:387:36)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"bestFilmOfYear\" › should return an array\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32mtrue\u001b[39m\n    Received: \u001b[31mfalse\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 396 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 397 |\u001b[39m   it(\u001b[32m'should return an array'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 398 |\u001b[39m     expect(bestFilmOfYear(movies\u001b[33m,\u001b[39m \u001b[35m1999\u001b[39m) \u001b[36minstanceof\u001b[39m \u001b[33mArray\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 399 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 400 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 401 |\u001b[39m   it(\u001b[32m'should return a new array, not update the original one'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:398:59)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"bestFilmOfYear\" › should return the best film of a year, searching in an array\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n    Expected: \u001b[32m[{\"director\": \"Stanley Kubrick\", \"duration\": \"1h 28min\", \"genre\": [\"Drama\", \"War\"], \"score\": 10, \"title\": \"Film1\", \"year\": 1957}]\u001b[39m\n    Received: \u001b[31mundefined\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 430 |\u001b[39m       }\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 431 |\u001b[39m     ]\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 432 |\u001b[39m     expect(bestFilmOfYear(testArr\u001b[33m,\u001b[39m \u001b[35m1957\u001b[39m))\u001b[33m.\u001b[39mtoEqual([\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 433 |\u001b[39m       {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 434 |\u001b[39m         title\u001b[33m:\u001b[39m \u001b[32m'Film1'\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 435 |\u001b[39m         year\u001b[33m:\u001b[39m \u001b[35m1957\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:432:43)\u001b[22m\u001b[2m\u001b[22m\n"
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"hoursToMinutes\" › should return an array\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32mtrue\u001b[39m\n    Received: \u001b[31mfalse\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 362 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 363 |\u001b[39m   it(\u001b[32m'should return an array'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 364 |\u001b[39m     expect(hoursToMinutes(movies) \u001b[36minstanceof\u001b[39m \u001b[33mArray\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 365 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 366 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 367 |\u001b[39m   it(\u001b[32m'should return a new array, not update the original one'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:364:53)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"hoursToMinutes\" › should return an array of movies with duration as a number\u001b[39m\u001b[22m\n\n    TypeError: Cannot read property '0' of undefined\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 370 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 371 |\u001b[39m   it(\u001b[32m'should return an array of movies with duration as a number'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 372 |\u001b[39m     expect(\u001b[36mtypeof\u001b[39m hoursToMinutes(movies)[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mduration)\u001b[33m.\u001b[39mtoBe(\u001b[32m'number'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 373 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 374 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 375 |\u001b[39m   it(\u001b[32m'should return an array of movies with the correct duration for a 31 minute movie'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:372:41)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"hoursToMinutes\" › should return an array of movies with the correct duration for a 31 minute movie\u001b[39m\u001b[22m\n\n    TypeError: Cannot read property '0' of undefined\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 375 |\u001b[39m   it(\u001b[32m'should return an array of movies with the correct duration for a 31 minute movie'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 376 |\u001b[39m     \u001b[36mconst\u001b[39m movieTry \u001b[33m=\u001b[39m [{ duration\u001b[33m:\u001b[39m \u001b[32m'0h 31min'\u001b[39m }]\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 377 |\u001b[39m     expect(hoursToMinutes(movieTry)[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mduration)\u001b[33m.\u001b[39mtoBe(\u001b[35m31\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 378 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 379 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 380 |\u001b[39m   it(\u001b[32m'should return an array of movies with the correct duration for a 341 minute movie'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:377:36)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"hoursToMinutes\" › should return an array of movies with the correct duration for a 341 minute movie\u001b[39m\u001b[22m\n\n    TypeError: Cannot read property '0' of undefined\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 380 |\u001b[39m   it(\u001b[32m'should return an array of movies with the correct duration for a 341 minute movie'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 381 |\u001b[39m     \u001b[36mconst\u001b[39m movieTry \u001b[33m=\u001b[39m [{ duration\u001b[33m:\u001b[39m \u001b[32m'5h 41min'\u001b[39m }]\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 382 |\u001b[39m     expect(hoursToMinutes(movieTry)[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mduration)\u001b[33m.\u001b[39mtoBe(\u001b[35m341\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 383 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 384 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 385 |\u001b[39m   it(\u001b[32m'should return an array of movies with the correct duration for a 2 hour movie'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:382:36)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"hoursToMinutes\" › should return an array of movies with the correct duration for a 2 hour movie\u001b[39m\u001b[22m\n\n    TypeError: Cannot read property '0' of undefined\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 385 |\u001b[39m   it(\u001b[32m'should return an array of movies with the correct duration for a 2 hour movie'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 386 |\u001b[39m     \u001b[36mconst\u001b[39m movieTry \u001b[33m=\u001b[39m [{ duration\u001b[33m:\u001b[39m \u001b[32m'2h'\u001b[39m }]\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 387 |\u001b[39m     expect(hoursToMinutes(movieTry)[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mduration)\u001b[33m.\u001b[39mtoBe(\u001b[35m120\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 388 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 389 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 390 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:387:36)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"bestFilmOfYear\" › should return an array\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32mtrue\u001b[39m\n    Received: \u001b[31mfalse\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 396 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 397 |\u001b[39m   it(\u001b[32m'should return an array'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 398 |\u001b[39m     expect(bestFilmOfYear(movies\u001b[33m,\u001b[39m \u001b[35m1999\u001b[39m) \u001b[36minstanceof\u001b[39m \u001b[33mArray\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 399 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 400 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 401 |\u001b[39m   it(\u001b[32m'should return a new array, not update the original one'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:398:59)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFunction \"bestFilmOfYear\" › should return the best film of a year, searching in an array\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n    Expected: \u001b[32m[{\"director\": \"Stanley Kubrick\", \"duration\": \"1h 28min\", \"genre\": [\"Drama\", \"War\"], \"score\": 10, \"title\": \"Film1\", \"year\": 1957}]\u001b[39m\n    Received: \u001b[31mundefined\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 430 |\u001b[39m       }\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 431 |\u001b[39m     ]\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 432 |\u001b[39m     expect(bestFilmOfYear(testArr\u001b[33m,\u001b[39m \u001b[35m1957\u001b[39m))\u001b[33m.\u001b[39mtoEqual([\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 433 |\u001b[39m       {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 434 |\u001b[39m         title\u001b[33m:\u001b[39m \u001b[32m'Film1'\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 435 |\u001b[39m         year\u001b[33m:\u001b[39m \u001b[35m1957\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/films.spec.js\u001b[39m\u001b[0m\u001b[2m:432:43)\u001b[22m\u001b[2m\u001b[22m\n"
     }
   ],
   "wasInterrupted": false
