@@ -1,8 +1,12 @@
 // Exercise 1: Get the array of all directors.
 function getAllDirectors(array) {
-  let result =  ???;
-  console.log("EXERCICE 1 ->", result);
-  return result;
+    let result = Array.from( // Array without repeated directors
+        new Set( // Set without repeated directors
+            array.map(v => v.director) // Array with repeated directors
+        )
+    );
+    console.log("EXERCICE 1 ->", result);
+    return result;
 }
 
 // Exercise 2: Get the films of a certain director
