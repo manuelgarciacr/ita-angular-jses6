@@ -91,8 +91,21 @@ function moviesAverageByCategory(array, genre) {
 }
 
 // Exercise 7: Modify the duration of movies to minutes
-function hoursToMinutes() {
+function hoursToMinutes(array) {
+    const REGEXP = /(?:(\d*)*h)?(?:\s*(\d*)*min)?/;
+    const ARRAY = array.map(v => {
+        const RES = {...v};
+        const MATCH = v.duration.match(REGEXP);
+        const HOURS = isNaN(MATCH[1]) ? 0 : +MATCH[1];
+        const MINUTES = HOURS * 60 + (isNaN(MATCH[2]) ? 0 : +MATCH[2]);
 
+        RES.duration = MINUTES;
+
+        return RES
+    });
+    console.log("EXERCICE 7 ->", ARRAY);
+
+    return ARRAY
 }
 
 // Exercise 8: Get the best film of a year
